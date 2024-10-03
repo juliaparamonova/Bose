@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100vh;
+    border: 1px solid black;
+    padding: 64px 120px;
+    background-image: url(./img/Headphones_hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 64px 120px;
+}
+
+.header_text {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 32px 0;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_title {
+    margin-top: 64px;
+}
