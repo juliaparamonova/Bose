@@ -1,6 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+    font-family: "Inter", sans-serif;
+
 }
+
 
 .header_top {
     display: flex;
@@ -27,9 +34,10 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
     padding: 64px 120px;
+    background-color: #E5E5E5;
 }
 
-.header_text {
+.nav {
     font-family: Inter;
     font-size: 22px;
     font-weight: 700;
@@ -40,6 +48,13 @@ body {
     margin: 0 0 32px 0;
 }
 
+.nav_link {
+    color: rgba(41, 41, 41, 1);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 .menu-img {
     display: flex;
     justify-content: space-between;
@@ -47,4 +62,9 @@ body {
 
 .modal_title {
     margin-top: 64px;
+}
+
+
+section {
+    height: 800px;
 }

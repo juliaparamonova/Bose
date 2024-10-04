@@ -5,10 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bose</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="#home">
     <header class="header">
         <div class="header_top"> <img src="img/logo.png" alt="Bose logo">
             <img src="img/icons/Icon-Burger-menu.png" alt="burger menu">
@@ -20,29 +25,39 @@
         </div>
 
     </header>
+
     <div class="menu">
-        <div class="menu-img"><img src="img/logo.png" alt="Bose logo">
+        <div class="menu-img">
+            <img src="img/logo.png" alt="Bose logo">
             <img src="img/icons/Icon-Close.png" alt="close">
         </div>
 
         <div class="modal_title">
-            <h2 class="header_text">Home</h2>
-            <h2 class="header_text">Recommended</h2>
-            <h2 class="header_text">Categories</h2>
-            <h2 class="header_text">How to buy</h2>
+            <nav class="nav">
+                <a href="#home" class="nav_link">HOME</a>
+            </nav>
+            <nav class="nav">
+                <a href="#recommended" class="nav_link">Recommended</a>
+            </nav>
+            <nav class="nav">
+                <a href="#categories" class="nav_link">Categories</a>
+            </nav>
+            <nav class="nav">
+                <a href="#howtobuy" class="nav_link">How to buy</a>
+            </nav>
         </div>
     </div>
-
-    <section>
-        <h2>Recommended</h2>
-    </section>
-    <section>
-        <h2> Browse Bose </br>
-            products by category</h2>
-    </section>
-    <section>
-        <h2>Why buy direct </br>from Bose</h2>
-    </section>
+    <main>
+        <section id="recommended">
+            <h2>Recommended</h2>
+        </section>
+        <section id="categories">
+            <h2> Browse Bose </br>
+                products by category</h2>
+        </section>
+        <section id="howtobuy">
+            <h2>Why buy direct </br>from Bose</h2>
+        </section>
     </main>
 
     <footer></footer>
