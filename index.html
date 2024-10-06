@@ -16,20 +16,22 @@
 <body id="#home">
     <header class="header">
         <div class="header_top"> <img src="img/logo.png" alt="Bose logo">
-            <img src="img/icons/Icon-Burger-menu.png" alt="burger menu">
+
+            <a href="#menu"><img src="img/icons/Icon-Burger-menu.png" alt="burger menu"></a>
+
         </div>
         <div class="header_botton">
             <img src="img/Sound_waves.png" alt="Sound_waves">
-            <h1>The world shades. </br>
+            <h1 class="text_title">The world shades. </br>
                 Your music shines.</h1>
         </div>
 
     </header>
 
-    <div class="menu">
+    <div class="menu" id="menu">
         <div class="menu-img">
             <img src="img/logo.png" alt="Bose logo">
-            <img src="img/icons/Icon-Close.png" alt="close">
+            <a href="#home"><img src="img/icons/Icon-Close.png" alt="close"></a>
         </div>
 
         <div class="modal_title">
@@ -39,24 +41,50 @@
             <nav class="nav">
                 <a href="#recommended" class="nav_link">Recommended</a>
             </nav>
+
             <nav class="nav">
                 <a href="#categories" class="nav_link">Categories</a>
             </nav>
+
             <nav class="nav">
                 <a href="#howtobuy" class="nav_link">How to buy</a>
             </nav>
         </div>
     </div>
-    <main>
-        <section id="recommended">
-            <h2>Recommended</h2>
+    <main class="main">
+        <section class="recommended" id="recommended">
+            <h2 class="recommended_title">Recommended</h2>
+            <div class="recommended_products">
+                <article class="product">
+                    <img class="product_photo" src="img/products/bose_portable.png" alt="Bose portable Smart speaker">
+                    <h3 class="product_title">Bose portable Smart speaker</h3>
+                    <p class="product_category">Smart home</p>
+                    <p class="product_price">$ 399.00</p>
+                </article>
+                <article class="product">
+                    <img class="product_photo" src="img/products/sound.png" alt="SoundLink Flex Bluetooth speaker">
+                    <h3 class="product_title">SoundLink Flex Bluetooth speaker</h3>
+                    <p class="product_category">Portable bluetooth</p>
+                    <p class="product_price">$ 149.00</p>
+                </article>
+                <article class="product">
+                    <img class="product_photo" src="img/products/sound2.png" alt="SoundLink Color Bluetooth speaker II">
+                    <h3 class="product_title">SoundLink Color Bluetooth speaker II</h3>
+                    <p class="product_category">Portable bluetooth</p>
+                    <p class="product_price">$ 129.00</p>
+                </article>
+            </div>
+
         </section>
+
+
+
         <section id="categories">
-            <h2> Browse Bose </br>
+            <h2 class="categories_title"> Browse Bose </br>
                 products by category</h2>
         </section>
         <section id="howtobuy">
-            <h2>Why buy direct </br>from Bose</h2>
+            <h2 class="howtobuy_title">Why buy direct </br>from Bose</h2>
         </section>
     </main>
 
