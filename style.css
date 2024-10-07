@@ -8,7 +8,7 @@ body {
     color: rgba(41, 41, 41, 1);
     font-size: 16px;
     line-height: 140%;
-    /* max-width: 1260px; */
+
 
 }
 
@@ -84,8 +84,6 @@ body {
     line-height: 48px;
     letter-spacing: -1.5px;
     text-align: center;
-
-
 }
 
 .main {
@@ -94,13 +92,10 @@ body {
 }
 
 
-
-
 .nav_link {
     text-decoration: none;
     font-weight: bold;
     color: rgba(41, 41, 41, 1);
-
 }
 
 .menu-img {
@@ -113,7 +108,6 @@ body {
 }
 
 
-section {}
 
 .categories_title {
     margin-top: 0;
@@ -162,7 +156,6 @@ section {}
     margin-top: 0;
     margin-bottom: 12px;
     line-height: 140%;
-
 }
 
 .product_price {
@@ -217,9 +210,6 @@ section {}
     margin: 0 auto;
 }
 
-
-
-
 .howtobuy_list {
     list-style: none;
     padding: 0;
@@ -246,13 +236,10 @@ section {}
     background-size: cover;
 }
 
-
-/* From Uiverse.io by aryamitra06 */
 .loader {
     display: flex;
     align-items: center;
 }
-
 
 
 .bar {
